@@ -3,12 +3,12 @@ using System.Text.Json;
 
 namespace PostmanCloneLibrary;
 
-public class ApiAccess
+public class ApiAccess : IApiAccess
 {
     private readonly HttpClient client = new();
 
     public async Task<string> CallApiAsync(
-        string url, 
+        string url,
         bool formatUotput = true,
         HttpAction action = HttpAction.GET
     )
@@ -44,7 +44,7 @@ public class ApiAccess
             return false;
         }
 
-        bool output = Uri.TryCreate(url, UriKind.Absolute, out Uri uriOutput) && 
+        bool output = Uri.TryCreate(url, UriKind.Absolute, out Uri uriOutput) &&
             (uriOutput.Scheme == Uri.UriSchemeHttps);
 
         return output;

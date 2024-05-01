@@ -4,7 +4,7 @@ namespace PostmanCloneUI;
 
 public partial class Dashboard : Form
 {
-    private readonly ApiAccess api = new();
+    private readonly IApiAccess api = new ApiAccess();
 
     public Dashboard()
     {
