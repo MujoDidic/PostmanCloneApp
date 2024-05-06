@@ -28,7 +28,7 @@ public partial class Dashboard : Form
             //API Call
             ResultsJson.Text = await api.CallApiAsync(ApiText.Text);
 
-            StatusResults.Text = "Ready";
+            ResultsStatusLabel.Text = "Ready";
         }
         catch (Exception ex)
         {
