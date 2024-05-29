@@ -1,35 +1,38 @@
 # PostmanCloneApp
-This app is a clone of Postman program for API access and testing.
-## It's made with 
+Diese App ist ein Klon des Postman-Programms für den API-Zugriff und -Test.
+
+## Sie wurde entwickelt mit
 * C#
-* .NET8
+* .NET 8
 * Windows Forms
-### also it covers how to use
-* Class Libraries
-* Interfaces
+
+### Zudem deckt sie die Verwendung von
+* Klassenbibliotheken
+* Schnittstellen (Interfaces)
 * HttpClient
-* Json files
-### and Methods like
+* JSON-Dateien
+
+### und Methoden wie
 * GET
 * POST
 
-## Using App
-1.Download the Executable
+## Verwendung der App
+1. Laden Sie die ausführbare Datei herunter.
 
-![Postman clone ready to run](Images/scr3.png "Download Executable file")
+![Postman-Klon bereit zum Ausführen](Images/scr3.png "Herunterladen der ausführbaren Datei")
 
-2.When App is running it sholud look like this:
+2. Wenn die App läuft, sollte sie so aussehen:
 
-![Postman clone ready to run](Images/scr1.png "Program opened.")
+![Postman-Klon bereit zum Ausführen](Images/scr1.png "Programm geöffnet")
 
-3.Now user can input API link and press "GO" button
+3. Nun kann der Benutzer den API-Link eingeben und die Schaltfläche „GO“ drücken.
 
-![Postman clone ready to run](Images/scr2.png "Json file presented")
+![Postman-Klon bereit zum Ausführen](Images/scr2.png "JSON-Datei angezeigt")
 
-### Plan to add
-* Functionalities like POST, PUT, DELETE and PATCH
-* API headers
-* API authentication
-* Dependency injetion
+### Geplante Erweiterungen
+* Funktionalitäten wie POST, PUT, DELETE und PATCH
+* API-Header
+* API-Authentifizierung
+* Dependency Injection
 * Logging
-* Create UI with MAUI,WPF and Blazor
+* Erstellung der Benutzeroberfläche mit MAUI, WPF und Blazor
