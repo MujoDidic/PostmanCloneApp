@@ -7,7 +7,7 @@ public class ApiAccess : IApiAccess
 {
     private readonly HttpClient client = new();
 
-    public async Task<string> CallApiAsync(
+    public async Task<string> CallApiAsync(//string url,bool formatUotput = true,HttpAction action = HttpAction.GET)
         string url,
         bool formatUotput = true,
         HttpAction action = HttpAction.GET

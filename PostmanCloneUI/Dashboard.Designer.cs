@@ -51,9 +51,10 @@
             // ApiText
             // 
             ApiText.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            ApiText.Location = new Point(40, 128);
+            ApiText.BorderStyle = BorderStyle.FixedSingle;
+            ApiText.Location = new Point(106, 75);
             ApiText.Name = "ApiText";
-            ApiText.Size = new Size(692, 39);
+            ApiText.Size = new Size(639, 39);
             ApiText.TabIndex = 1;
             // 
             // label2
@@ -61,14 +62,14 @@
             label2.AutoSize = true;
             label2.Location = new Point(40, 77);
             label2.Name = "label2";
-            label2.Size = new Size(55, 32);
+            label2.Size = new Size(60, 32);
             label2.TabIndex = 2;
-            label2.Text = "URL";
+            label2.Text = "URL:";
             // 
             // CallApi
             // 
             CallApi.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            CallApi.Location = new Point(751, 127);
+            CallApi.Location = new Point(751, 77);
             CallApi.Name = "CallApi";
             CallApi.Size = new Size(75, 40);
             CallApi.TabIndex = 3;
@@ -79,27 +80,29 @@
             // ResultsJson
             // 
             ResultsJson.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            ResultsJson.Location = new Point(40, 242);
+            ResultsJson.BackColor = SystemColors.ButtonHighlight;
+            ResultsJson.BorderStyle = BorderStyle.FixedSingle;
+            ResultsJson.Location = new Point(40, 174);
             ResultsJson.Multiline = true;
             ResultsJson.Name = "ResultsJson";
             ResultsJson.ReadOnly = true;
             ResultsJson.ScrollBars = ScrollBars.Both;
-            ResultsJson.Size = new Size(786, 289);
+            ResultsJson.Size = new Size(786, 292);
             ResultsJson.TabIndex = 4;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(43, 186);
+            label3.Location = new Point(40, 139);
             label3.Name = "label3";
-            label3.Size = new Size(142, 32);
+            label3.Size = new Size(147, 32);
             label3.TabIndex = 5;
-            label3.Text = "Json Results";
+            label3.Text = "Json Results:";
             // 
             // StatusResults
             // 
             StatusResults.Items.AddRange(new ToolStripItem[] { ResultsStatusLabel });
-            StatusResults.Location = new Point(0, 563);
+            StatusResults.Location = new Point(0, 488);
             StatusResults.Name = "StatusResults";
             StatusResults.Size = new Size(854, 22);
             StatusResults.TabIndex = 6;
@@ -115,7 +118,7 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(854, 585);
+            ClientSize = new Size(854, 510);
             Controls.Add(StatusResults);
             Controls.Add(label3);
             Controls.Add(ResultsJson);

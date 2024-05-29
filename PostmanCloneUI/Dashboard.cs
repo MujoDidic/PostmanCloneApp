@@ -33,7 +33,7 @@ public partial class Dashboard : Form
         catch (Exception ex)
         {
             ResultsJson.Text = "Error" + ex.Message;
-            ResultsStatusLabel.Text = "Error";
+            ResultsStatusLabel.Text = "Error" +ex.Message;
         }
     }
 }
