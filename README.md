@@ -15,7 +15,7 @@ This app is a clone of Postman program for API access and testing.
 
 ## Using App
 1.Download the Executable
-
+![Postman clone ready to run](Images/scr3.png "Download Executable file")
 2.When App is running it sholud look like this:
 ![Postman clone ready to run](Images/scr1.png "Program opened.")
 
